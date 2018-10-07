@@ -1,8 +1,8 @@
-package com.clearmarkets.cleartcp.domain.message;
+package com.cleartcp.domain.message;
 
 import java.util.Map;
 
-import com.clearmarkets.cleartcp.domain.CMUser;
+import com.cleartcp.domain.CMUser;
 
 public class CacheRefreshMessage extends BaseTcpMessage {
 	private static final long serialVersionUID = -8618026128628241322L;

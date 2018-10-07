@@ -1,9 +1,9 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 import java.io.Serializable;
 
-import com.clearmarkets.cleartcp.enumeration.Application;
-import com.clearmarkets.cleartcp.enumeration.AuthEvent;
+import com.cleartcp.enumeration.Application;
+import com.cleartcp.enumeration.AuthEvent;
 
 public class AuthAudit implements Serializable {
 	private static final long serialVersionUID = -1222409911120023395L;

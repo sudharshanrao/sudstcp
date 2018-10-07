@@ -1,11 +1,11 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
 
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.tcpclient.SimpleTCPClient;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.tcpclient.SimpleTCPClient;
 
 
 class TCPClient extends SimpleTCPClient<GUIMessage> {

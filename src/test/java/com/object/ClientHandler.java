@@ -1,4 +1,4 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.io.IOException;
 import java.net.Socket;
@@ -6,9 +6,9 @@ import java.net.SocketException;
 import java.util.Map;
 import java.util.UUID;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.scheduler.IScheduler;
-import com.clearmarkets.cleartcp.tcpserver.ClientWorkerRunnable;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.scheduler.IScheduler;
+import com.cleartcp.tcpserver.ClientWorkerRunnable;
 
 public class ClientHandler extends ClientWorkerRunnable<GUIMessage>{
 

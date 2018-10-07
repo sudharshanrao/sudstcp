@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.tcpclient;
+package com.cleartcp.tcpclient;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -22,15 +22,15 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.domain.CMUser;
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.Identification;
-import com.clearmarkets.cleartcp.domain.LocalCacheEvent;
-import com.clearmarkets.cleartcp.domain.message.CacheRefreshMessage;
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.domain.message.MessageType;
-import com.clearmarkets.cleartcp.enumeration.UserCacheEventEnum;
-import com.clearmarkets.cleartcp.stream.StreamReaderWriter;
+import com.cleartcp.domain.CMUser;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.Identification;
+import com.cleartcp.domain.LocalCacheEvent;
+import com.cleartcp.domain.message.CacheRefreshMessage;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.domain.message.MessageType;
+import com.cleartcp.enumeration.UserCacheEventEnum;
+import com.cleartcp.stream.StreamReaderWriter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

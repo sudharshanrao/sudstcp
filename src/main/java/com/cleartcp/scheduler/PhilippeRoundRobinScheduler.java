@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.scheduler;
+package com.cleartcp.scheduler;
 
 import java.util.Collection;
 import java.util.Collections;

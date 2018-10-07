@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.tcpserver;
+package com.cleartcp.tcpserver;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.stream.StreamReaderWriter;
+import com.cleartcp.stream.StreamReaderWriter;
 
 /**
  * Framework thread for the tcp server

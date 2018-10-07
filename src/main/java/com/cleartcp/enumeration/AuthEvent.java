@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.enumeration;
+package com.cleartcp.enumeration;
 
 public enum AuthEvent {
 	LOGIN("LOGIN"),

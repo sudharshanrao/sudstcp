@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.clearmarkets.cleartcp.tcpclient;
+package com.cleartcp.tcpclient;
 
-import com.clearmarkets.cleartcp.domain.CMUser;
+import com.cleartcp.domain.CMUser;
 
 /**
  * @author sunil

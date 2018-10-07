@@ -1,14 +1,14 @@
-package com.clearmarkets.cleartcp.domain.message;
+package com.cleartcp.domain.message;
 
 import java.util.TimeZone;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.domain.CMUser;
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.GUIException;
-import com.clearmarkets.cleartcp.enumeration.Application;
+import com.cleartcp.domain.CMUser;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.GUIException;
+import com.cleartcp.enumeration.Application;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

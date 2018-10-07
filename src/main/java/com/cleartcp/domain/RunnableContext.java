@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 import org.springframework.context.ApplicationContext;
 

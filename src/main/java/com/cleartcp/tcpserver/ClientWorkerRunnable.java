@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.tcpserver;
+package com.cleartcp.tcpserver;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -17,12 +17,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.Identification;
-import com.clearmarkets.cleartcp.domain.message.MessageType;
-import com.clearmarkets.cleartcp.scheduler.CustomRoundRobinScheduler;
-import com.clearmarkets.cleartcp.scheduler.IScheduler;
-import com.clearmarkets.cleartcp.stream.StreamReaderWriter;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.Identification;
+import com.cleartcp.domain.message.MessageType;
+import com.cleartcp.scheduler.CustomRoundRobinScheduler;
+import com.cleartcp.scheduler.IScheduler;
+import com.cleartcp.stream.StreamReaderWriter;
 
 /**
  * Framework thread in the tcp server for the client worker which services the client socket.

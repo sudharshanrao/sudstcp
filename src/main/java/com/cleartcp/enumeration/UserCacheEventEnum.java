@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.enumeration;
+package com.cleartcp.enumeration;
 
 public enum UserCacheEventEnum {
 	ADD_USER_TO_CACHE,

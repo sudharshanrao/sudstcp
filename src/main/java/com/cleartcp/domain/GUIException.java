@@ -1,8 +1,8 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 import java.io.Serializable;
 
-import com.clearmarkets.cleartcp.enumeration.CMException;
+import com.cleartcp.enumeration.CMException;
 
 public class GUIException implements Serializable {
 	

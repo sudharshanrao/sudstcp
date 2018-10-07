@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.clearmarkets.cleartcp.tcpclient;
+package com.cleartcp.tcpclient;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.domain.message.GUIMessage;
 
 /**
  * @author sunil

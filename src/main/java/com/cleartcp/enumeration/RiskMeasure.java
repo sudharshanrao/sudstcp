@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.enumeration;
+package com.cleartcp.enumeration;
 
 public enum RiskMeasure {
 	DV01("DV01"),

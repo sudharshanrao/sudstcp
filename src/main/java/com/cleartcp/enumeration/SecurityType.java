@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.enumeration;
+package com.cleartcp.enumeration;
 
 public enum SecurityType {
 	SST("SST"), //SPREAD_OVER_TREASURY

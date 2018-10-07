@@ -1,8 +1,8 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 import java.util.Map;
 
-import com.clearmarkets.cleartcp.enumeration.UserCacheEventEnum;
+import com.cleartcp.enumeration.UserCacheEventEnum;
 
 public class LocalCacheEvent {
 	private UserCacheEventEnum userCacheEventEnum;

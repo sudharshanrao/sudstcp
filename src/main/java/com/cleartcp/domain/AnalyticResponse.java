@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 public abstract class AnalyticResponse extends AnalyticRequest {
 	private Object response;

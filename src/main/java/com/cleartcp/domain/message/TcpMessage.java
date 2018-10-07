@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.domain.message;
+package com.cleartcp.domain.message;
 
 public interface TcpMessage {
 

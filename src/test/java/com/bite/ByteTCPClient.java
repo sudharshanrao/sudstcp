@@ -1,13 +1,13 @@
-package com.clearmarkets.bite;
+package com.bite;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
 
 import org.apache.commons.lang.SerializationUtils;
 
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.tcpclient.SimpleTCPClient;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.tcpclient.SimpleTCPClient;
 
 
 class ByteTCPClient extends SimpleTCPClient<GUIMessage> {

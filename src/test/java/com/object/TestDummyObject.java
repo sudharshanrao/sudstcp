@@ -1,4 +1,4 @@
-package com.clearmarkets.object;
+package com.object;
 
 public class TestDummyObject {
 

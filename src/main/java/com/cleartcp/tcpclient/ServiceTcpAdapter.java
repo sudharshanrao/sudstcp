@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.tcpclient;
+package com.cleartcp.tcpclient;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -12,12 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 
-import com.clearmarkets.cleartcp.domain.CMUser;
-import com.clearmarkets.cleartcp.domain.Constants;
-import com.clearmarkets.cleartcp.domain.GUIException;
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.domain.LocalCacheEvent;
-import com.clearmarkets.cleartcp.enumeration.CMException;
+import com.cleartcp.domain.CMUser;
+import com.cleartcp.domain.Constants;
+import com.cleartcp.domain.GUIException;
+import com.cleartcp.domain.LocalCacheEvent;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.enumeration.CMException;
 
 public class ServiceTcpAdapter {
 	private final static Logger LOGGER = LoggerFactory.getLogger(ServiceTcpAdapter.class);

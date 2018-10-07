@@ -1,4 +1,4 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.util.HashMap;
 

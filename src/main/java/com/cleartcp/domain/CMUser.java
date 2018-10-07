@@ -1,9 +1,9 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import com.clearmarkets.cleartcp.enumeration.Application;
+import com.cleartcp.enumeration.Application;
 
 public class CMUser implements Serializable {
 	private static final long serialVersionUID = 4158786123124044551L;

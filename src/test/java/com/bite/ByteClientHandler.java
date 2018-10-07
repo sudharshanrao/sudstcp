@@ -1,13 +1,13 @@
-package com.clearmarkets.bite;
+package com.bite;
 
 import java.io.IOException;
 import java.net.Socket;
 import java.net.SocketException;
 import java.util.Map;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.scheduler.IScheduler;
-import com.clearmarkets.cleartcp.tcpserver.ClientWorkerRunnable;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.scheduler.IScheduler;
+import com.cleartcp.tcpserver.ClientWorkerRunnable;
 
 public class ByteClientHandler extends ClientWorkerRunnable<GUIMessage>{
 

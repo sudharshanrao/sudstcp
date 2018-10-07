@@ -1,10 +1,10 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.util.Date;
 
 import org.junit.Test;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.domain.message.GUIMessage;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

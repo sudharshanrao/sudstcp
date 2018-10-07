@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.stream;
+package com.cleartcp.stream;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -9,7 +9,7 @@ import org.apache.commons.lang.SerializationUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.domain.message.MessageType;
+import com.cleartcp.domain.message.MessageType;
 
 public abstract class StreamReaderWriter {
 	

@@ -1,4 +1,4 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -10,7 +10,7 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.domain.message.GUIMessage;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

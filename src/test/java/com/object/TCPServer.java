@@ -1,12 +1,12 @@
-package com.clearmarkets.object;
+package com.object;
 
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.clearmarkets.cleartcp.domain.message.GUIMessage;
-import com.clearmarkets.cleartcp.scheduler.IScheduler;
-import com.clearmarkets.cleartcp.tcpserver.TCPServerRunnable;
+import com.cleartcp.domain.message.GUIMessage;
+import com.cleartcp.scheduler.IScheduler;
+import com.cleartcp.tcpserver.TCPServerRunnable;
 
 class TCPServer extends TCPServerRunnable<GUIMessage> {
 	private final Map<String, IScheduler> mapOfClientWorkerThreads = new ConcurrentHashMap<>();

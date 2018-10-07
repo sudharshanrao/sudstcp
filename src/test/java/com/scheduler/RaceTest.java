@@ -1,4 +1,4 @@
-package com.clearmarkets.scheduler;
+package com.scheduler;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -14,9 +14,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.clearmarkets.cleartcp.scheduler.CustomRoundRobinScheduler;
-import com.clearmarkets.cleartcp.scheduler.IScheduler;
-import com.clearmarkets.cleartcp.scheduler.PhilippeRoundRobinScheduler;
+import com.cleartcp.scheduler.CustomRoundRobinScheduler;
+import com.cleartcp.scheduler.IScheduler;
+import com.cleartcp.scheduler.PhilippeRoundRobinScheduler;
 
 public class RaceTest {
 	private static final Logger logger = LoggerFactory.getLogger(RaceTest.class);

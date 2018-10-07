@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.exception;
+package com.cleartcp.exception;
 
 public class HandledServiceException extends RuntimeException {
 

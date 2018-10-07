@@ -1,6 +1,6 @@
-package com.clearmarkets.cleartcp.scheduler;
+package com.cleartcp.scheduler;
 
-import com.clearmarkets.cleartcp.domain.Constants;
+import com.cleartcp.domain.Constants;
 
 public class Robin {
 	private int id;

@@ -1,4 +1,4 @@
-package com.clearmarkets.cleartcp.domain;
+package com.cleartcp.domain;
 
 public class Constants {
 	public static final String DEFAULT_TIME_ZONE = "UTC";

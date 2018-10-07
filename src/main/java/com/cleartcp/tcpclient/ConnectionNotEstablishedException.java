@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.clearmarkets.cleartcp.tcpclient;
+package com.cleartcp.tcpclient;
 
 /**
  * @author sunil
